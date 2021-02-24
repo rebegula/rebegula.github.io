@@ -1,0 +1,67 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 92%;
+    max-width: 960px;
+    padding-left: 2.275%;
+    padding-right: 2.275%;
+    background: rgb(252,244,236);
+    font-family: monospace;
+    
+}
+
+header {
+    position:fixed;
+        top: 0px;
+        left:0px;
+    margin-left: 0px;
+    text-align: center;
+    display: block;
+    background: rgb(235,224,224);
+    padding-left: 0%;
+    padding-right: 0%;
+    width: 100%;
+    <!--border-style: dotted;-->
+}
+
+
+
+
+
+.FotoPatrones{
+    text-align: center
+}
+.fotoPython{
+    text-align: center
+}
+.fotoDashboard{
+    text-align: center
+}
+.Hobbies{
+    background: rgb(235,224,224);
+}
+.Links{
+   background: rgb(235,224,224);
+    text-align: center;
+        
+}
+.Hobbies .h2{
+    text-align: center
+}
+
+
+
+    
+
+    
+
+
+
+
+
+.html {width: 70%; background-color: #9BE1E9;} /* Green */
+.css {width: 50%; background-color: #9BCDE9;} /* Blue */
+.Cmasmas {width: 80%; background-color: #9BC0E9;}
+.python {width: 50%; background-color: #9BABE9;} /* Dark Grey */
+.Clojure {width:10%; background-color:#C59BE9;}
+       
