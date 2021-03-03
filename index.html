@@ -1,54 +1,159 @@
-<!DOCTYPE html> 
-<html> 
-  
-<head> 
-    <meta charset="UTF-8">
-    <title>CalculadoraIMC</title>
-    <script src="mainDOM.js"></script> 
-    <link rel="stylesheet" href="./main.css">
-</head> 
-  
-<body> 
-   
- 
-  
-      <h1>Calculadora IMC</h1>
-    
-        <p id="info">Porfavor ingrese su peso en kilogramos y su estatura en metros </p>
-      <div class="DivPeso">
-          <br>
-          
-      <h3 class="text">Peso</h3>
-        <p>Kilogramos</p>
-      <input type="text" id="peso">
-          <br>
-          <br><br>
-        </div>
-    <br>
-    <br>
-    <br>
-    <div class="DivEstatura">
-        <br>
-          
-      <h3 class="text">  Estatura</h3>
-        <p>metros</p>
-      <input type="text" id="estatura">
-        <br>
-          <br><br>
-      <br>
-        </div>
-    <br>
-        
-      <button id="imc" onclick="IMC()">Calcular</button>
-      
-        <br>
-        <div id="imc_VIEW"></div>
-        <br>
-        <div id="Resultado_IMC"></div>
-      
-      
-     
+<html>
 
-</body> 
-  
-</html> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Mi CCV</title>
+        <link rel="stylesheet" href="./main.css">
+       
+    </head>
+
+    <body>
+        <header>
+            
+            <h1> MI CiufirenV </h1>
+            <h4> Rebeca </h4>
+            
+            <p> Actualmente estudio el cuarto semestre de la carrera en Ingeniería en Tecnologías Compuacionales en el Tecnologico de Monterrey </p>
+            
+            
+        </header>
+        
+        <section class="Content">
+            
+            
+            <section class="Curriculum">
+                <br><br><br><br><br><br><br><br>
+                <h2>Portafolio</h2>
+                <article class="curriculumContent">
+                    <h3>· Patrones Hermosos</h3>
+                    <p>
+                    Participé en Patrones hemosos un evento dedicado a enseñar a niñas el pensamiento lógico para ingeniería en su edición <b>2021</b>. Fui facilitadora para el nivel básico donde ayudamos a niñas de secundaria a crear su propia página de internet por primera vez.
+                    </p>
+                    <div class="fotoPatrones">
+                        <img height="200" id="fotoPatronesHermosos" src="file:///Users/rebecaguevara/Desktop/CVV/PH.png">
+                    </div>
+                    <br>
+                    <hr>
+                    <br>
+                    <h3>· Battleship en python</h3>
+                    <p>En <b>primer semestre</b> de la carrera en parejas realizamos el juego de battleship en python</p>
+                    <div class="fotoPython">
+                        <img height="200" id="fotoPython" src="file:///Users/rebecaguevara/Desktop/CVV/battleship.png">
+                    </div>
+                    <br>
+                    <hr>
+                    <br>
+                    
+                    <h3>Ciudades inteligentes</h3>
+                    <p>Por medio de MySQL se realizó una base de datos que recolectaba CO2, temperatura, etc para analizar la calidad del aire en la Ciudad de México y presentarla en una página de internet. <b>Creada en el tercer semestre</b></p>
+                    <div class="fotoDashboard">
+                        <img height="200" id="fotoDashboard" src="file:///Users/rebecaguevara/Desktop/CVV/dashboard.png">
+                        <img height="240" id="fotoIot" src="file:///Users/rebecaguevara/Desktop/CVV/iot.png">
+                    </div>
+                    
+                </article>
+                
+                
+            
+            <section class="Hobbies">
+                <h2> Hobbies y deportes</h2>
+                    <ul>Leer</ul>
+                    <ul>Pintar con gouache</ul>
+                    <ul>Bullet Journal</ul>
+                    <ul>Natación</ul>
+                    <ul>Dibujo digital</ul>
+                <br>
+                
+                <h2> Libros y peliculas favoritas</h2>
+                    
+                
+                <table style="width:100%">
+                  <tr>
+                    <th>Peliculas</th>
+                    <th>Libros</th>
+                    
+                  </tr>
+                  <tr>
+                    <td>Your name</td>
+                    <td>Behind the beautiful forevers</td>
+                    
+                  </tr>
+                  <tr>
+                    <td>Orgullo y prejuicio</td>
+                    <td>Sadie</td>
+                    
+                  </tr>
+                </table>
+                
+                
+            </section>
+                
+            
+                
+                
+                
+                <section class="ProgrammingLanguages">
+                <h2> Lenguages de programación </h2>
+                <div class="barras">
+                  <p> HTML </p>
+                  <div class="container">
+                      <div class="skills html">70%</div>
+                  </div>
+                  
+                  <p> CSS </p>
+                  <div class="container">
+                      <div class="skills css">50%</div>
+                  </div>
+                  
+                  <p> C++ </p>
+                  <div class="container">
+                      <div class="skills cmasmas">80%</div>
+                  </div>
+                  
+                  <p> Python </p>
+                  <div class="container">
+                      <div class="skills python">50%</div>
+                  </div>
+                  
+                  <p> Clojure </p>
+                  <div class="container">
+                      <div class="skills clojure">10%</div>
+                  </div>
+                    
+                  
+                    
+                </div>
+                
+            </section>
+                
+                
+        </section>
+            
+            
+            
+            <footer>
+                
+                
+                <section class="Links">
+                    <h2> Contacto</h2>
+                    
+                        <a href="https://github.com/rebegula"><img height="50"class="github" src="file:///Users/rebecaguevara/Desktop/CVV/github.png" alt="github"></a>
+                    <a href="https://www.instagram.com"><img height="50"class="instagram" src="file:///Users/rebecaguevara/Desktop/CVV/instagram.png" alt="instagram"></a>
+                        
+                    <br>
+                    
+                   
+                    <br>
+                        <p> <b>2021 Copyright </b>All Right Reserved </p>
+
+                    <br>
+                    
+                </section>
+                
+            </footer>
+                
+        </section>
+    </body>
+
+</html>
