@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    background: rgb(219,223,202);
+    font-family: monospace;
+}
+.DivPeso{
+    border-radius: 25px;
+    background: rgb(231,232,225);
+    margin: auto;
+  width: 50%;
+  
+  padding: 10px;
+}
+
+.DivEstatura{
+    border-radius: 25px;
+    background: rgb(231,232,225);
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
