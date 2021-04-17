@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
+    <configuration>
+    <system.webServer>
+        <staticContent>
+         <remove fileExtension=".json" />
+         <mime$$anonymous$$ap fileExtension=".json" mimeType="application/json; charset=UTF-8" />
+         <remove fileExtension=".unityweb" />
+         <mime$$anonymous$$ap fileExtension=".unityweb" mimeType="application/octet-stream" />
+        </staticContent>
+     </system.webServer> 
+  </configuration>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | ciclo 1</title>
